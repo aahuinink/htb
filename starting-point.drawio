@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6">
-  <diagram name="Page-1" id="6zRMFslm3MS382w8mU-6">
-    <mxGraphModel dx="397" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6" pages="3">
+  <diagram name="top-level" id="6zRMFslm3MS382w8mU-6">
+    <mxGraphModel dx="678" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
           <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qYF8Y5QEOH_T36nfmvHO-13" value="priv esc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="380" y="490" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qYF8Y5QEOH_T36nfmvHO-14" value="public exploits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="325" y="180" width="100" height="30" as="geometry" />
@@ -63,9 +63,93 @@
         <mxCell id="qYF8Y5QEOH_T36nfmvHO-16" value="web enum and netmaping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="150" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qYF8Y5QEOH_T36nfmvHO-17" value="get to root" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-17" target="qYF8Y5QEOH_T36nfmvHO-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-17" value="payloadAllTheThings or HackTricks checklists" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-26" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-29" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-32" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-34" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-36" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-38" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-19" target="qYF8Y5QEOH_T36nfmvHO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-19" value="&lt;div&gt;SCRIPTS:&lt;/div&gt;&lt;div&gt;both - PEASS&lt;br&gt;&lt;/div&gt;&lt;div&gt;Linux - LinEnum, LPC&lt;/div&gt;&lt;div&gt;Windows - Seatbelt, JAWS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.44;exitY=1.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-21" target="qYF8Y5QEOH_T36nfmvHO-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-21" value="&lt;div&gt;May trip antivirus software,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use w caution&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="550" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-25" value="Kernel Exploits" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-28" value="Vulnerable software" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-31" value="User permissions" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-33" value="Scheduled Tasks" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-35" value="Exposed Credentials" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-37" value="SSH Keys" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-39" value="GTFOBins for sudo exploits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="100" y="788" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-40" value="&lt;div&gt;schedule a reverse or&amp;nbsp;&lt;/div&gt;&lt;div&gt;bind shell cron job&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="435" y="865" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-43" value="see other page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="808" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6yVuhUuUcJNiMhmAYN3s" name="ssh-keys">
+    <mxGraphModel dx="576" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JORcxrLelcB6o8R9yLEZ-1" value="&lt;div&gt;method 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="235" y="48" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JORcxrLelcB6o8R9yLEZ-2" value="&lt;div&gt;Find RSA key for desired user&lt;/div&gt;&lt;div&gt;save to file - example name id_rsa&lt;/div&gt;&lt;div&gt;chmod 600 id_rsa (otherwise wont work)&lt;/div&gt;&lt;div&gt;ssh root@&amp;lt;url&amp;gt; -i id_rsa &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="125" y="68" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JORcxrLelcB6o8R9yLEZ-3" value="&lt;div&gt;Method 2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if write access to a .ssh dir&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;generate new key: ssh-keygen -f key&lt;/div&gt;&lt;div&gt;generates 2 files: key and key.pub&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;copy key.pub to remote .ssh dir (ex. /root/.ssh/authorized_keys)&lt;/div&gt;&lt;div&gt;add key to attacking machine id-rsa&lt;/div&gt;&lt;div&gt;continue w method 1&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="105" y="108" width="330" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q-pzmXZHGLJAlu9lNc1A" name="vulnerable-software">
+    <mxGraphModel dx="576" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
