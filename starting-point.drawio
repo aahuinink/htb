@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6">
   <diagram name="Page-1" id="6zRMFslm3MS382w8mU-6">
-    <mxGraphModel>
+    <mxGraphModel dx="397" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-1" target="qYF8Y5QEOH_T36nfmvHO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="160" />
+              <mxPoint x="170" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-1" target="qYF8Y5QEOH_T36nfmvHO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="160" />
+              <mxPoint x="520" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-1" value="Start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="108" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-2" target="qYF8Y5QEOH_T36nfmvHO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-2" value="&lt;div&gt;nmap -sC -sV &amp;lt;url&amp;gt; -o &amp;lt;fileoutputname&amp;gt;.nmap&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-5" target="qYF8Y5QEOH_T36nfmvHO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-5" value="gobuster dir -u &amp;lt;url&amp;gt; -w &amp;lt;wordlist&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-6" target="qYF8Y5QEOH_T36nfmvHO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-6" value="search for exploits" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-9" target="qYF8Y5QEOH_T36nfmvHO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-9" value="use msfconsole to gain access" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qYF8Y5QEOH_T36nfmvHO-11" target="qYF8Y5QEOH_T36nfmvHO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-11" value="create reverse, bind, or web shell" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-13" value="priv esc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="530" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-14" value="public exploits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-16" value="web enum and netmaping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYF8Y5QEOH_T36nfmvHO-17" value="get to root" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
