@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6" pages="4">
   <diagram name="top-level" id="6zRMFslm3MS382w8mU-6">
     <mxGraphModel dx="678" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,6 +150,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="49zke6REXlFOKidPKvf2" name="file transfers">
+    <mxGraphModel dx="1858" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NXBK3zsR-DUbmMgg6DY9-1" value="&lt;div&gt;Method 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Go to dir w desired file.&lt;/div&gt;&lt;div&gt;start python http.server&lt;/div&gt;&lt;div&gt;curl or wget that IP and port&lt;/div&gt;&lt;div&gt;specify output&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="183" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NXBK3zsR-DUbmMgg6DY9-4" value="&lt;div&gt;Method 2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If ssh credentialed, use scp&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="183" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NXBK3zsR-DUbmMgg6DY9-5" value="&lt;div&gt;Method 3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;base64 encode the file and cat out to stout&lt;/div&gt;&lt;div&gt;copy from terminal and paste in shell of rx machine&lt;/div&gt;&lt;div&gt;base64 decode into a file&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="158" width="300" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
